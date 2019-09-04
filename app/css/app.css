@@ -1,0 +1,79 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0px;
+    background-color: black;
+}
+
+@font-face {
+    font-family: '2P';
+    src: url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.wrap-center {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.game {
+    background-image: url('../front/img/checkers.png');
+    margin-top: 20px;
+    width: 320px;
+    height: 96px;
+}
+
+canvas {
+    padding: 24 32;
+}
+
+span {
+    margin: 10px;
+}
+
+#start {
+    color: green;
+}
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    height: 40px;
+    margin-top: 40px;
+    font-size: 0.5em; 
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: black;  
+    height: 40px; 
+}
+
+.gameControll {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.gameInfo {
+    text-align: center;
+    color: rgb(138, 2, 2);
+    font-size: 0.8em;
+}
+
+
+
+#keyControll {
+    background-image: url('../front/img/key_controll.png');
+    background-size: cover;
+    width: 240px;
+    height: 120px;
+}
